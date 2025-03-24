@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-color: darkred;
+}
+.logo{
+    height: 100px;
+    width: 150px;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+    font-size: large;
+    
+}
+nav ul li{
+    height: 50px;
+    width: 130px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    }
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+.banner{
+    background-image: url("../img/portadaa.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    backdrop-filter: blur(10px);
+}
+
+.divice img{
+    height: 400px;
+    width: 400px;
+}
+
+.divice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    gap: 30px;
+    background-color: black
+}
+.divice a img{
+    height: 400px;
+    width: 400px;
+}
+.boton{
+    
+    height: 100px;
+    width: 100px;
+}
+
+main a{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+main h3{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+main h4{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+footer{
+    display: flex;
+    background-color: grey;
+    margin: 50px;
+    padding: 30px;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+@media(max-width: 600px){
+
+    header{
+        flex-direction: column;
+
+    }
+    nav ul li{
+        height: 30px;
+        width: 130px;
+        
+        }
+    
+    .divice{
+        margin: 30px;
+    }
+
+    .boton{
+        height: 60px;
+        width: 60px;
+    }
+}
