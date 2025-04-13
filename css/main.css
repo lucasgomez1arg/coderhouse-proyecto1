@@ -91,6 +91,7 @@ main h3{
     padding: 20px;
     text-decoration: underline;
     font-size: xx-large;
+    color: black;
 }
 main h4{
     display: flex;
@@ -99,6 +100,7 @@ main h4{
     padding: 20px;
     text-decoration: underline;
     font-size: xx-large;
+    color: black;
 }
 
 footer{
